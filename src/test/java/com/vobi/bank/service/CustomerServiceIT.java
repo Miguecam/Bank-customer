@@ -40,8 +40,8 @@ class CustomerServiceIT {
 	@Order(2)
 	void debeCrearunCustomer()throws Exception {
 		// Arrange
-		Integer idDocumentType = 3;
-		Integer idCustomer = 14836555;
+		Integer idDocumentType = 1;
+		Integer idCustomer = 14836554;
 
 		Customer customer = null;
 		DocumentType documentType = documentTypeRepository.findById(idDocumentType).get();
