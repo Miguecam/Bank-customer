@@ -23,7 +23,7 @@ import com.vobi.bank.service.CustomerService;
 @RequestMapping("/api/v1/customers")
 public class CustomerController {
 
-	@Autowired
+	@Autowired 
 	CustomerService customerService;
 
 	@Autowired
